@@ -121,7 +121,7 @@ interface TokenData {
 
 ### WebSocket Management
 
-The `TrendingTokenWebSocket` class in `client/src/lib/websocket.ts` handles:
+The `TrendingTokenWebSocket` class in `src/lib/websocket.ts` handles:
 
 - Connection establishment and reconnection logic
 - Message parsing and decompression
