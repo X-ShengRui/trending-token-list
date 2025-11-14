@@ -26,25 +26,24 @@ A real-time trending token list application built with Next.js, TypeScript, and 
 ## Project Structure
 
 ```
-client/
-  ├── public/              # Static assets (icons, etc.)
-  ├── src/
-  │   ├── components/      # Reusable React components
-  │   │
-  |   |── contexts/
-  |   |
-  │   ├── hooks/           # Custom React hooks
-  │   │   
-  │   ├── lib/             # Utility functions
-  │   │ 
-  │   ├── pages/           # Page components
-  │   │  
-  │   ├── App.tsx          # Main app component
-  |   |
-  |   |── const.ts
-  │   ├── main.tsx         # React entry point
-  │   └── index.css        # Global styles
-  └── index.html           # HTML template
+public/              # Static assets (icons, etc.)
+src/
+  ├── components/      # Reusable React components
+  │
+  |── contexts/
+  |
+  ├── hooks/           # Custom React hooks
+  │   
+  ├── lib/             # Utility functions
+  │ 
+  ├── pages/           # Page components
+  │  
+  ├── App.tsx          # Main app component
+  |
+  |── const.ts      
+  │── index.css        # Global styles
+  └── main.tsx         # React entry point
+index.html           # HTML template
 ```
 
 ## Getting Started
